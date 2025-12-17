@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-/* style de Aldjana*/
+/* ==========================================================
+   STYLE DE ALDJANA (Hero, Login, Sidebar) */
 .hero-policy {
   position: relative;
-  background-image: url("image/navbar/sante1.jpg");
+  background-image: url('image/navbar/sante1.jpg');
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -10,7 +10,7 @@
 }
 
 .hero-policy::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   background: rgba(83, 123, 174, 0.65);
@@ -27,7 +27,6 @@
   text-transform: uppercase;
 }
 
-/* Fil d’Ariane */
 .breadcrumb-wrapper {
   background-color: #ffffff;
   border-bottom: 1px solid #eeeeee;
@@ -39,7 +38,6 @@
   font-size: 0.9rem;
 }
 
-/* Cartes principales */
 .policy-section {
   background-color: #f5f8ff;
   padding: 3rem 0 3.5rem 0;
@@ -53,15 +51,13 @@
   height: 100%;
 }
 
-
-
 .policy-card h3 {
   color: #2566d4;
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0;
 }
-/* Fenêtre de connexion type ArcGIS */
+
 .login-overlay {
   min-height: 60vh;
   background-color: #262626;
@@ -93,7 +89,7 @@
 
 .login-body {
   padding: 1.25rem 1.5rem;
-  background-color:white
+  background-color: white;
 }
 
 .login-footer {
@@ -101,11 +97,6 @@
   background-color: white;
 }
 
-.login-footer .btn-light {
-  background-color: #e5e5e5;
-  border-color: #e5e5e5;
-}
-/* Section contenu avec sidebar */
 .content-section {
   background-color: #f5f8ff;
   padding: 2rem 0 3rem 0;
@@ -118,11 +109,6 @@
   padding: 2rem;
   min-height: 40px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-/* Sidebar menu */
-.sidebar-menu {
-  margin-top: 0;
 }
 
 .sidebar-title {
@@ -148,49 +134,30 @@
   color: #333333;
   text-decoration: none;
   border-bottom: 1px solid #f0f0f0;
-  transition: background-color 0.2s ease;
-}
-
-.sidebar-menu-item:last-child {
-  border-bottom: none;
 }
 
 .sidebar-menu-item:hover {
   background-color: #f8f9fa;
   color: #2566d4;
-  text-decoration: none;
 }
 
 .sidebar-menu-item.active {
-     background-color: #e3f2fd;
+  background-color: #e3f2fd;
   color: #2566d4;
   font-weight: 500;
 }
 
-/* Responsive pour la sidebar */
-@media (max-width: 991.98px) {
-  .sidebar-menu {
-    margin-top: 2rem;
-  }
-}
-
-
-
-
-=======
-/* babacar mboup */
-
+/* ==========================================================
+   STYLE DE BABACAR MBOUP (Documentation, PhotoContainer)
+   ========================================================== */
 .photoContainer {
   width: 100%;
   height: 30vh;
-  background: url('/image/mediatique/11.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url('/image/mediatique/11.png') no-repeat center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-weight: 500;
 }
 
 .photoContainer h2 {
@@ -203,7 +170,6 @@
 
 .container02 {
   width: 100%;
-  height: auto;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -214,31 +180,18 @@
   border-radius: 10px;
 }
 
-.container02 .row {
-  height: auto;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
 .container02 .row .item {
   border-radius: 10px;
 }
 
-.sectionDonnees {
-  width: 100%;
-  height: 60vh;
-}
 .sectionDonnees img {
   width: 100%;
-  height: 100%;
+  height: 60vh;
+  object-fit: cover;
 }
 
-/* style pour le documentation general  */
 .sectionDocumentations {
   width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   padding: 30px 60px;
@@ -248,14 +201,11 @@
 .sectionDocumentations .items1 {
   width: 40%;
 }
+
 .sectionDocumentations .item {
   box-shadow: 0 0 8px rgb(223, 223, 223);
   height: 60px;
-}
-
-.sectionDocumentations .item p {
-  margin: 0;
-  font-size: 14px;
+  margin-bottom: 10px; /* Ajouté pour l'espace */
 }
 
 .sectionDocumentations .items2 {
@@ -265,12 +215,20 @@
   gap: 10px;
 }
 
-.sectionPagination {
-  width: 100%;
-}
 a {
   text-decoration: none;
 }
 
-/* babacar mboup */
->>>>>>> 172380d92cc4a847087fc86e0c6f2f231d59bb0a
+@media (max-width: 991.98px) {
+  .sidebar-menu {
+    margin-top: 2rem;
+  }
+  .sectionDocumentations {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .sectionDocumentations .items1,
+  .sectionDocumentations .items2 {
+    width: 100%;
+  }
+}
