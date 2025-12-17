@@ -26,7 +26,6 @@
   height: auto;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: #f2f2f2;
 }
 
 .container02 .row .col {
@@ -64,7 +63,6 @@
   justify-content: center;
   padding: 30px 60px;
   gap: 50px;
-  background-color: #f2f2f2;
 }
 
 .sectionDocumentations .items1 {
@@ -89,7 +87,6 @@
 
 .sectionPagination {
   width: 100%;
-  background-color: #f2f2f2;
 }
 a {
   text-decoration: none;
