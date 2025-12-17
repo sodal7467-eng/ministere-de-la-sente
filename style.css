@@ -1,0 +1,178 @@
+/* style de Aldjana*/
+.hero-policy {
+  position: relative;
+  background-image: url("image/navbar/sante1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 4.5rem 0;
+}
+
+.hero-policy::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(83, 123, 174, 0.65);
+}
+
+.hero-policy .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-policy h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Fil d’Ariane */
+.breadcrumb-wrapper {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+}
+
+/* Cartes principales */
+.policy-section {
+  background-color: #f5f8ff;
+  padding: 3rem 0 3.5rem 0;
+}
+
+.policy-card {
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 2.2rem 1.5rem;
+  text-align: center;
+  height: 100%;
+}
+
+
+
+.policy-card h3 {
+  color: #2566d4;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+/* Fenêtre de connexion type ArcGIS */
+.login-overlay {
+  min-height: 60vh;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.login-dialog {
+  background-color: white;
+  color: #121111;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.login-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #444;
+}
+
+.login-title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.login-body {
+  padding: 1.25rem 1.5rem;
+  background-color:white
+}
+
+.login-footer {
+  padding: 0.75rem 1.5rem 1rem;
+  background-color: white;
+}
+
+.login-footer .btn-light {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+/* Section contenu avec sidebar */
+.content-section {
+  background-color: #f5f8ff;
+  padding: 2rem 0 3rem 0;
+  min-height: 60vh;
+}
+
+.main-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  min-height: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Sidebar menu */
+.sidebar-menu {
+  margin-top: 0;
+}
+
+.sidebar-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2566d4;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px dashed #2566d4;
+}
+
+.sidebar-menu-list {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.sidebar-menu-item {
+  display: block;
+  padding: 1rem 1.25rem;
+  color: #333333;
+  text-decoration: none;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-menu-item:last-child {
+  border-bottom: none;
+}
+
+.sidebar-menu-item:hover {
+  background-color: #f8f9fa;
+  color: #2566d4;
+  text-decoration: none;
+}
+
+.sidebar-menu-item.active {
+     background-color: #e3f2fd;
+  color: #2566d4;
+  font-weight: 500;
+}
+
+/* Responsive pour la sidebar */
+@media (max-width: 991.98px) {
+  .sidebar-menu {
+    margin-top: 2rem;
+  }
+}
+
+
+
+
