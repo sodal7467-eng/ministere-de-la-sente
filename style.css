@@ -104,10 +104,7 @@
   padding: 2rem 0 3rem 0;
   min-height: 60vh;
 }
-
-.items1 {
-}
-.main-content {
+¡ .main-content {
   background-color: #ffffff;
   border-radius: 8px;
   padding: 2rem;
@@ -173,13 +170,6 @@
   background-color: #e3f2fd;
   color: #2566d4;
   font-weight: 500;
-}
-
-/* Responsive pour la sidebar */
-@media (max-width: 991.98px) {
-  .sidebar-menu {
-    margin-top: 2rem;
-  }
 }
 
 /* babacar mboup */
@@ -253,6 +243,8 @@
 a {
   text-decoration: none;
 }
+
+/* babacar Mbou[ */
 
 @media (max-width: 991.98px) {
   .sidebar-menu {
