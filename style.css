@@ -1,9 +1,6 @@
-
-
 /* style de Aldjana*/
 
 /* STYLE DE ALDJANA (Hero, Login, Sidebar) */
-
 
 .hero-policy {
   position: relative;
@@ -54,9 +51,7 @@
   padding: 2.2rem 1.5rem;
   text-align: center;
   min-height: 10vh;
-  
 }
-
 
 .policy-card h3 {
   color: #2566d4;
@@ -110,12 +105,7 @@
   min-height: 60vh;
 }
 
-.items1{
- 
-  
-  
-  
- 
+.items1 {
 }
 .main-content {
   background-color: #ffffff;
@@ -123,32 +113,31 @@
   padding: 2rem;
   min-height: 40px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-
+}
 .main-contentR {
   background-color: #ffffff;
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-.main-contentReference{
-   background-color: #ffffff;
+.main-contentReference {
+  background-color: #ffffff;
   border-radius: 8px;
   padding: 2rem;
   min-height: 400px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-.main-contentSANITAIR{
-   background-color: #ffffff;
+.main-contentSANITAIR {
+  background-color: #ffffff;
   border-radius: 8px;
   padding: 2rem;
-  
+
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 /* Sidebar menu */
 .sidebar-menu {
   margin-top: 0;
 }
- 
 
 .sidebar-title {
   font-size: 1.1rem;
@@ -186,7 +175,6 @@
   font-weight: 500;
 }
 
-
 /* Responsive pour la sidebar */
 @media (max-width: 991.98px) {
   .sidebar-menu {
@@ -194,12 +182,7 @@
   }
 }
 
-
-
-
-
 /* babacar mboup */
-
 
 /* STYLE DE BABACAR MBOUP (Documentation, PhotoContainer) */
 .photoContainer {
@@ -284,4 +267,3 @@ a {
     width: 100%;
   }
 }
-
