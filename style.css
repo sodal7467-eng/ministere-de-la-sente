@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 
 /* style de Aldjana*/
-=======
+
 /* STYLE DE ALDJANA (Hero, Login, Sidebar) */
 
->>>>>>> 14a1bd007c30cb9f95567e003e1faceb269cf1ce
+
 .hero-policy {
   position: relative;
   background-image: url('image/navbar/sante1.jpg');
@@ -123,8 +123,7 @@
   padding: 2rem;
   min-height: 40px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-<<<<<<< HEAD
+
 .main-contentR {
   background-color: #ffffff;
   border-radius: 8px;
@@ -149,8 +148,7 @@
 .sidebar-menu {
   margin-top: 0;
 }
-=======
->>>>>>> 14a1bd007c30cb9f95567e003e1faceb269cf1ce
+ 
 
 .sidebar-title {
   font-size: 1.1rem;
@@ -188,7 +186,7 @@
   font-weight: 500;
 }
 
-<<<<<<< HEAD
+
 /* Responsive pour la sidebar */
 @media (max-width: 991.98px) {
   .sidebar-menu {
@@ -202,9 +200,9 @@
 
 /* babacar mboup */
 
-=======
+
 /* STYLE DE BABACAR MBOUP (Documentation, PhotoContainer) */
->>>>>>> 14a1bd007c30cb9f95567e003e1faceb269cf1ce
+
 .photoContainer {
   width: 100%;
   height: 30vh;
@@ -274,10 +272,10 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
+
 /* babacar mboup */
 
-=======
+
 @media (max-width: 991.98px) {
   .sidebar-menu {
     margin-top: 2rem;
@@ -291,4 +289,4 @@ a {
     width: 100%;
   }
 }
->>>>>>> 14a1bd007c30cb9f95567e003e1faceb269cf1ce
+
