@@ -120,7 +120,7 @@
   padding: 2rem;
   min-height: 40px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-
+}
 .main-contentR {
   background-color: #ffffff;
   border-radius: 8px;
@@ -371,4 +371,3 @@ a {
     width: 100%;
   }
 }
-
