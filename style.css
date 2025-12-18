@@ -53,6 +53,9 @@
   min-height: 10vh;
   
 }
+.policy-card1{
+ box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+}
 
 
 .policy-card h3 {
@@ -112,13 +115,7 @@
   min-height: 60vh;
 }
 
-.items1{
- 
-  
-  
-  
- 
-}
+
 .main-content {
   background-color: #ffffff;
   border-radius: 8px;
@@ -198,6 +195,91 @@
   .sidebar-menu {
     margin-top: 2rem;
   }
+}
+.site-footer {
+    background-color: #f5f5f5; /* Gris très clair comme sur l'image */
+    font-family: Arial, sans-serif;
+    padding-top: 0;
+    color: #333;
+}
+
+/* La petite barre tricolore au centre */
+.color-bar {
+    display: flex;
+    justify-content: center;
+    height: 4px;
+    margin-bottom: 20px;
+}
+
+.color-bar span {
+    width: 20px; /* Largeur de chaque segment de couleur */
+    height: 100%;
+}
+
+.green { background-color: #00853f; }
+.yellow { background-color: #fdef42; }
+.red { background-color: #e31b23; }
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Liens du haut (Mentions, RSS, Contact) */
+.utility-links {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.utility-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+.separator {
+    color: #999;
+}
+
+/* Liens des sigles (ARP, OMS, etc.) */
+.institution-links {
+    margin-bottom: 30px;
+}
+
+.institution-links a {
+    text-decoration: none;
+    color: #444;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+/* Ligne du bas (Copyright et Réalisation) */
+.copyright-row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #555;
+}
+
+.copyright-row p {
+    margin: 0;
+}
+
+/* Responsive : empiler les éléments sur mobile */
+@media (max-width: 768px) {
+    .copyright-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .institution-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 
